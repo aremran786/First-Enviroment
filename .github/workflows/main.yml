@@ -1,10 +1,10 @@
-name: Simple Workflow own
+name: Simple Workflow
 
 on:
   push:
     branches:
-       -main
-      
+      - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,4 +15,3 @@ jobs:
 
     - name: Print a Message
       run: echo "Hello, GitHub Actions!"
-        echo "ferngjier"
