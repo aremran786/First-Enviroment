@@ -15,3 +15,6 @@ jobs:
 
     - name: Print a Message
       run: echo "Hello, GitHub Actions!"
+      steps:
+      -name : print a message
+      run: echo "hello git"
